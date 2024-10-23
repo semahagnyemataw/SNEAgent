@@ -1,0 +1,299 @@
+/*Universal selector*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 160%;
+    margin: 0 0 75px 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(142, 150, 194);
+    padding: 15px;
+    text-align: center;
+}
+
+/*     # is used in ID     */
+#title-1 {
+    padding: 1px;
+    font-style: oblique;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    /* Start vertically centered */
+    left: 0;
+    /* Start from the left */
+    transform: translateY(-50%);
+    /* Adjust for vertical centering */
+    white-space: nowrap;
+    /* Prevent the text from breaking */
+}
+
+#Sne {
+    color: yellow;
+    font-size: 45px;
+}
+
+#Agent {
+    color: rgb(168, 10, 142);
+    font-size: 40px;
+}
+
+#Menu-List {
+    margin: 45px auto;
+    font-size: 20px;
+    /*background-color: indigo;  */
+}
+
+#Menu-List li {
+    display: inline;
+    margin-right: 40px;
+}
+
+#Menu-List li a {
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}
+
+/*    .Dot is used for class     */
+.active {
+    border-bottom: 3px solid red;
+}
+
+/* we can see click background
+div.page-section{
+    padding: 10px;
+    border-radius: 20px;
+    background: #35ACB4;
+    transition: 1s;
+    clip-path: circle(10% at 90% 20%);
+
+    &:hover {
+        clip-path: circle(75%);
+    }
+}*/
+main {
+    padding: 100px 20px 100px 20px;
+    border: 5px solid rgb(201, 188, 207);
+}
+
+.page-section {
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+h1 {
+    margin: 10px auto;
+    text-transform: uppercase;
+
+}
+
+.application-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form {
+    width: 35%;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select[name="Region/city"],
+#interest {
+    display: block;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+#country-code {
+    padding: 10px;
+    width: 15%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+input[type="tel"] {
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#success-message {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+i {
+    font-size: 42px;
+}
+
+video-wrapper {
+    text-align: center;
+}
+
+video {
+    max-width: 75%;
+}
+
+.Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player {
+    width: 400px;
+}
+
+.button-card {
+    margin-top: 6px;
+}
+
+#button {
+    padding: 4px 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+meter {
+    background-color: rgb(231, 219, 231);
+    border-width: 40px;
+}
+
+progress {
+    background-color: rgb(26, 178, 189);
+}
+
+summary {
+    background-color: rgb(26, 178, 189);
+}
+
+pre span {
+    color: green;
+}
+
+table,
+td,
+th {
+    border: 2px solid rgb(101, 69, 109);
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%;
+    margin: 20 auto;
+}
+
+thead {
+    background-color: rgb(209, 33, 180);
+    color: white;
+}
+
+td {
+    padding-left: 10px;
+}
+
+.box-wrapper {
+    position: relative;
+    background-color: white;
+    height: 400px;
+    padding: 0;
+}
+
+.box {
+    background-color: gray;
+    display: inline-block;
+    width: 150px;
+    height: 150;
+    text-align: center;
+    line-height: 150px;
+    font-size: 90px;
+    border: 10px solid rgb(42, 32, 51);
+    color: white;
+}
+
+#box1 {
+    margin-top: 0;
+    margin-left: 0;
+    background-color: rgb(108, 250, 89);
+}
+
+#box2 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: rgb(250, 89, 89);
+}
+
+#box3 {
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: yellow;
+}
+
+#box4 {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: rgb(89, 105, 250);
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    background-color: greenyellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-wrapper {
+    margin: 0.5px;
+}
+
+footer-arrow {
+    text-align: right;
+    color: red;
+}

@@ -1,0 +1,235 @@
+<!--declaration-->
+<!DOCTYPE html>
+
+<!--the root element starts here, Title aestatics-->
+<html lang="englsih">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="3600" />
+    <meta name="description" content="Sne Online agent is the best online agent to get anything in land of Ethiopia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Selling, Buying, Rent and Transfer" />
+    <meta name="author" content="Semahagn Yematawu" />
+    <title>Sne Online Agent|static website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="" />
+    <!--style = to give a background color for your body part -->
+    <script>
+        console.log('i just love programing')
+        console.log('This is just great!')
+    </script>
+    <link rel="stylesheet" href="./styles.css">
+    <!--donot forget the CSS file with file name=Styles.css-->
+</head>
+
+<body>
+    <div id='root'>
+        <header>
+            <!--
+            <headerstyle="background-color: yellow;"></header>-->
+            <!--main body
+            <h1 id="title-1" class="title" style=font-size:64px;>
+                <span style=color:blue><b><em> Ezira</em> </b></span>
+                <span style=color:blue><b><em> Online Agent</em> </b></span>
+            -->
+            <h1 id="title-1" class="title">
+                <span id="Sne">sne</span>
+                <span id="Agent">Agent</span>
+                <!--blocking and non-blocking-->
+                <!--p,h: blocking=selfish, They cannot give space for others-->
+                <!--span: non-blocking = non-selfish, They can give space for others-->
+            </h1>
+            <div>
+                <ul id="Menu-List">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="./apply.html" class="active">Apply</a>
+                    </li>
+                    <li>
+                        <a href="./contacts.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="./helps.html">Helps</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <!--section can be added as follows:
+            <section>
+                <h1>Section 1</h1>
+                <article><p>text</p></article>
+            </section>-->
+            <!--New division in main body-->
+
+            <div class="page-section" id="Form">
+                <fieldset>
+                    <legend class="application-form">
+                        <h3>Application Form</h3>
+                    </legend>
+                    <form>
+                        <div>
+                            <label for="First Name">First Name</label>
+                            <input type="text" id="name" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="Father Name">Father Name</label>
+                            <input type="text" id="name" placeholder="Your Father Name">
+                        </div>
+                        <div>
+                            <label for="Last Name">Last Name</label>
+                            <input type="text" id="name" placeholder="Your Last Name">
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <div class="phone-field">
+                                <span>
+                                    <select id="country-code">
+                                        <option value="+1">US+1 (USA)</option>
+                                        <option value="+44">GB +44 (UK)</option>
+                                        <option value="+251">ET +251 (Ethiopia)</option>
+                                        <option value="+91">IN +91 (India)</option>
+                                        <option value="+61">AU +61 (Australia)</option>
+                                        <option value="+81">JP +81 (Japan)</option>
+                                        <!-- Add more country codes as needed -->
+                                    </select>
+                                    <input type="tel" id="phone" class="phone-number" placeholder="Enter phone number"required>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="interest">Your Aim:</label>
+                            <select id="interest" name="interest">
+                                <option value="None">none</option>
+                                <option value="Sell">Sell</option>
+                                <option value="Buy">Buy</option>
+                                <option value="Rent">Rent</option>
+                                <option value="Transfer">Tranfer</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <p><b>Gender</b></p>
+                            <input type="radio" id='female' name='gender'><label for='female'>Female</label><br>
+                            <input type="radio" id='male' name='gender'><label for='male'>Male</label><br>
+                            <!--radio used for choosing only one option-->
+                        </div>
+                        <div>
+                            <p> <b>Select Your Region/city</b></p>
+                            <select name="Region/city" id="Region/city">
+                                <option value="">-- Select Your Region/city --</option>
+                                <option value="Addis ababa">Addis ababa</option>
+                                <option value="Dire Dewa">Dire dewa</option>
+                                <option value="Harari">Harar</option>
+                                <option value="Tigray">Tigray-Mekele</option>
+                                <option value="Tigray">Tigray-Adigrat</option>
+                                <option value="Tigray">Tigray-Aksum</option>
+                                <option value="Tigray">Tigray-Maichew</option>
+                                <option value="Oromia">Oromia-Adama</option>
+                                <option value="Oromia">Oromia-Welega</option>
+                                <option value="Oromia">Oromia-Arsi</option>
+                                <option value="Oromia">Oromia-Jimma</option>
+                                <option value="Amhara">Amhara-Bahir Dar</option>
+                                <option value="Amhara">Amhara-Gondar</option>
+                                <option value="Amhara">Amhara-Dessie & Kombolcha</option>
+                                <option value="Amhara">Amhara-D/Birhan</option>
+                                <option value="Amhara">Amhara-D/Markos</option>
+                                <option value="Amhara">Amhara-Metema:Kuara</option>
+                                <option value="AmharaTgiray">AmharaTgiray-Raya</option>
+                                <option value="Afar">Afar-Semera</option>
+                                <option value="Afar">Afar-Millie</option>
+                                <option value="Somali">Somali-Jijiga</option>
+                                <option value="Somali">Somali-Kebri dehar</option>
+                                <option value="SNNP">SNNP-Hawassa</option>
+                                <option value="SNNP">SNNP-Sodo</option>
+                                <option value="SNNP">SNNP-Arba mnch</option>
+                                <option value="SNNP">SNNP-Dilla</option>
+                                <option value="Ganbela">Ganbella</option>
+                                <option value="Benshangul Gumiz-Asosa">Benshangul Gumiz</option>
+                                <option value="Benshangul Gumiz-Gilgel Beles">Benshangul Gumiz</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email">
+                        </div>
+                        <div>
+                            <label for="Password">Password</label>
+                            <input type="number" id="Password" placeholder="Password to this case">
+                        </div>
+                        <div>
+                            <label for="birthyear">Birth Year</label>
+                            <input type="date" id="date of birth">
+                        </div>
+                        <div>
+                            <label for="message">Leave your message</label> <br>
+                            <textarea name="message" id="message" cols="80" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="file">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="agree">
+                            <label for="agree">
+                                <small>
+                                    I agree that all the information I have provided here is true and belongs to me.
+                                </small>
+                            </label>
+                        </div>
+                        <div>
+                            <button type="submit">Submit Application</button>
+                        </div>
+                    </form>
+                    <p id="success-message" class="hidden">Thank you for applying!</p>
+                </fieldset>
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <small>Copyright&copy;2024 | SNE Agent</small>
+            </div>
+
+            <div>
+                <a href="#root"><i class="fas fa-arrow-alt-circle-up"></i></a>
+            </div>
+            <!--html eneteties like= &copy;-->
+            <!--links-->
+            <!--web icons-->
+            <div>
+                <a href="https://www.linkedin.com/in/semeyem03/" target="-blank">Linkedin</a> &nbsp; &nbsp; &nbsp;
+                &nbsp;
+                <a href="https://www.facebook.com/in/semahagn.yemataw/" target="-blank">Facebook</a>&nbsp; &nbsp; &nbsp;
+                &nbsp;
+                <a href="https://github.com/semahagnyemataw" target="-blank">Github</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="https://www.youtube.com/@alweledm" target="-blank">Youtube</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="https://t.me/integrityisbetter" target="-blank">Telegram</a>
+                <!-- The above footer web icons should be as follow:
+                    <a href="https://www.linkedin.com/in/semeyem03/" target="-blank"><i class="fa-brands fa-linkedin">Linkedin</i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="https://www.facebook.com/semahagn.yemataw" target="-blank"><i
+                            class="fa-brands fa-facebook">Facebook</i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="https://github.com/semahagnyemataw" target="-blank"><i class="fa-brands fa-github">Github</i></a>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="https://www.youtube.com/@alweledm" target="-blank"><i class="fa-brands fa-youtube">Youtube</i></a>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="https://t.me/integrityisbetter" target="-blank"><i class="fa-brands fa-telegram">Telegram</i></a>-->
+            </div>
+        </footer>
+        <script src="Javascript.js"></script>
+    </div>
+</body>
+
+</html>
